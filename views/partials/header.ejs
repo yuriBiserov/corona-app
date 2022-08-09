@@ -1,0 +1,17 @@
+<header>
+    <% if (locals.title && title ==='Israel') { %>
+        <img class="page_img" src="/img/israel.png">
+        <br>  
+    <% } %>
+
+    <% if (locals.title && title ==='Worldwide') { %>
+        <img class="page_img" src="/img/global.png">
+        <br>   
+    <% } %>
+
+    <% if (locals.title && title ==='Page not found') { %>
+        <img class="page_img" src="/img/error.png">
+        <br>
+    <% } %>
+    <a href="/">Back to Homepage</a>
+</header>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Covid App | <%= title %></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel='icon' href="/img/COVID-19.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+
+</head>
+<body>
+    <%- include ("partials/header") %>
+    
+    <div class="main_page">
+        
+        <form id="israel_form">
+            <input type="text" id="user_input" name="city" placeholder="enter city" list="city_list">
+            <datalist id="city_list"> 
+
+
+            </datalist>
+            <br>
+            <button>search</button>
+ 
+        </form>
+        
+        <h4 class="data_block" id="data_block">
+            
+        </h4>
+    </div>
+    
+    <footer>
+            
+    </footer>
+    <script src="/js/israel.js">
+    </script>
+</body>
+</html>
